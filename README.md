@@ -116,9 +116,8 @@ Other useful scripts: `npm run type-check`, `npm run lint` - see [package.json](
 
 ### Contact & Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
+- **Name:** Md Abu Kayser - Full-Stack Engineer
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 - **Project:** _TypeSafe-T-Shirt-Storefront-Practice-Project_
