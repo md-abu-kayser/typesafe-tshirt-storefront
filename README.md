@@ -4,6 +4,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
+
+<!-- HTML & CSS -->
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 <!-- Styling / PostCSS -->
 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/docs/)
@@ -31,6 +37,8 @@
 
 ## Plain docs links
 
+- HTML (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - Tailwind CSS docs: [https://tailwindcss.com/docs/](https://tailwindcss.com/docs/)
 - PostCSS docs / postcss.config: [https://postcss.org/](https://postcss.org/)
 - JavaScript (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -69,7 +77,7 @@ A small, production-ready React + Vite storefront demonstrating component archit
 
 ## Tech stack
 
-- Framework: React 18
+- Framework: React 
 - Tooling: Vite
 - Language: TypeScript (strict)
 - Styling: Tailwind CSS + a few CSS modules
@@ -80,35 +88,31 @@ A small, production-ready React + Vite storefront demonstrating component archit
 
 1. **Install dependencies**
 
-```
+```bash
    npm install
-
 ```
 
 2. **Run dev server (hot reload)**
 
-```
+```bash
    npm run dev
-
 ```
 
 3. **Build for production**
 
-```
+```bash
    npm run build
-
 ```
 
 4. **Preview production build locally**
 
-```
+```bash
    npm run preview
-
 ```
 
 Other useful scripts: `npm run type-check`, `npm run lint` - see [package.json](package.json).
 
-## How it works---> high level
+## How it works - high level
 
 - The router is configured in [src/main.tsx](src/main.tsx). The `/` route loads product data from the static JSON file ([public/tshirts.json](public/tshirts.json)) and renders the [`Home`](src/components/Home/Home.tsx) page.
 - [`Home`](src/components/Home/Home.tsx) uses a local React state for the cart (typed as [`CartItem[]`](src/types/index.ts)). Adding/removing items demonstrates pure-state updates and conditional UI patterns.
@@ -160,17 +164,17 @@ Other useful scripts: `npm run type-check`, `npm run lint` - see [package.json](
 
 ### Contact & Maintainer
 
+- **Project:** _typesafe-tshirt-storefront_
 - **Name:** Md Abu Kayser - Full-Stack Engineer
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _TypeSafe-T-Shirt-Storefront-Practice-Project_
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
 ---
 
-**Thank you for reviewing this project!**  
 It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for portfolio showcases and practice demos.
+**Thank you for reviewing this project!**  
 
 ---
